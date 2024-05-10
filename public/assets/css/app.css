@@ -1,0 +1,142 @@
+.folder-container {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.folder-icon {
+    font-size: 120px; /* Increased font size */
+    color: #ffca28; /* Adjust the color as needed */
+    margin-bottom: 8px;
+}
+
+.folder-name {
+    text-align: start;
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+}
+
+.header-profiles > a.nav-link {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-left: 0.9375rem;
+}
+.header-profiles > a.nav-link i {
+    font-weight: 700;
+}
+.header-profiles > a.nav-link .header-info {
+    padding-left: 0rem;
+    text-align: left;
+}
+@media only screen and (max-width: 87.5rem) {
+    .header-profiles > a.nav-link .header-info {
+        padding-left: 0.625rem;
+    }
+}
+@media only screen and (max-width: 35.9375rem) {
+    .header-profiles > a.nav-link .header-info {
+        display: none;
+    }
+}
+.header-profiles > a.nav-link .header-info span {
+    font-size: 1rem;
+    color: #000;
+    display: block;
+    font-weight: 600;
+}
+.header-profiles > a.nav-link .header-info strong {
+    color: #6e6e6e;
+}
+.header-profiles > a.nav-link .header-info small,
+.header-profiles > a.nav-link .header-info .small {
+    display: block;
+    font-size: 0.8125rem;
+    color: #89879f;
+    font-weight: 400;
+    line-height: 1.2;
+}
+@media only screen and (max-width: 87.5rem) {
+    .header-profiles > a.nav-link {
+        margin-left: 0rem;
+        padding-left: 0rem;
+    }
+    .header-profiles > a.nav-link .header-info span {
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 35.9375rem) {
+    .header-profiles > a.nav-link {
+        margin-left: 0rem;
+        padding-left: 0rem;
+        border-left: 0;
+    }
+}
+.header-profiles .dropdown-menus {
+    padding: 0.9375rem 0;
+    min-width: 12.5rem;
+}
+.header-profiles .dropdown-menus a:hover,
+.header-profiles .dropdown-menus a:focus,
+.header-profiles .dropdown-menus a.active {
+    color: #886cc0;
+}
+.header-profiles img {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 1.25rem;
+}
+@media only screen and (max-width: 87.5rem) {
+    .header-profiles img {
+        width: 2.4375rem;
+        height: 2.4375rem;
+    }
+}
+.header-profiles .dropdown-toggle i {
+    font-size: 1.25rem;
+}
+@media only screen and (max-width: 35.9375rem) {
+    .header-profiles .dropdown-toggle span {
+        display: none;
+    }
+}
+.header-profiles .profile_title {
+    background: #886cc0;
+    color: #fff;
+    padding: 0.625rem 1.25rem;
+}
+.header-profiles .profile_title h5,
+.header-profiles .profile_title .h5 {
+    color: #fff;
+    margin-bottom: 0.1875rem;
+}
+.header-profiles .dropdown-item {
+    padding: 0.5rem 1.5rem;
+}
+
+.comment-container {
+    /* padding: 10px; */
+    height: 70%;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    /* border-bottom: 1px solid #d8d8d8; */
+}
+
+.like {
+  margin-left: -10rem;
+}
+/* Style when liked */
+.like-icon.liked i.fa-heart {
+  color: red; /* Warna saat ikon disukai */
+}
+
+/* Default style */
+.like-icon i.fa-heart {
+  font-size: 15px; /* Set your desired font size for the default state */
+  color: black; /* Warna default ikon */
+  cursor: pointer;
+}
+
